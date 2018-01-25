@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5936A91F2018623B0022CCFE /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A91E2018623B0022CCFE /* extensions.swift */; };
+		5936A9202018623B0022CCFE /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A91E2018623B0022CCFE /* extensions.swift */; };
+		5936A922201879EC0022CCFE /* Buy_sell_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A921201879EC0022CCFE /* Buy_sell_TabBar.swift */; };
+		5936A923201879EC0022CCFE /* Buy_sell_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A921201879EC0022CCFE /* Buy_sell_TabBar.swift */; };
+		599EEE6120170F36007EB844 /* Movie_Post_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE6020170F36007EB844 /* Movie_Post_VC.swift */; };
+		599EEE642017153E007EB844 /* Select_Movie_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE632017153E007EB844 /* Select_Movie_Cell.swift */; };
+		599EEE662017155D007EB844 /* Select_Date_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE652017155D007EB844 /* Select_Date_Cell.swift */; };
+		599EEE6820171592007EB844 /* No_of_Ticket_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE6720171592007EB844 /* No_of_Ticket_Cell.swift */; };
+		599EEE6A201715B5007EB844 /* Ticket_Class_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE69201715B5007EB844 /* Ticket_Class_Cell.swift */; };
+		599EEE6C201715E5007EB844 /* Booked_Method_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE6B201715E5007EB844 /* Booked_Method_Cell.swift */; };
+		599EEE6E20171604007EB844 /* Payment_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE6D20171604007EB844 /* Payment_Cell.swift */; };
+		599EEE7020171DA4007EB844 /* Select_Theater_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE6F20171DA4007EB844 /* Select_Theater_Cell.swift */; };
+		599EEE7420171E5B007EB844 /* Select_Movie_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE7320171E5B007EB844 /* Select_Movie_TblCell.swift */; };
+		599EEE7620171E83007EB844 /* Select_Date_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE7520171E83007EB844 /* Select_Date_TblCell.swift */; };
+		599EEE7820171ED5007EB844 /* No_of_Ticket_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE7720171ED5007EB844 /* No_of_Ticket_TblCell.swift */; };
+		599EEE7A20171F19007EB844 /* Ticket_Row_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE7920171F19007EB844 /* Ticket_Row_TblCell.swift */; };
+		599EEE7C20171F46007EB844 /* Show_Time_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE7B20171F46007EB844 /* Show_Time_TblCell.swift */; };
+		599EEE7E20171F6B007EB844 /* Booked_Method_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE7D20171F6B007EB844 /* Booked_Method_TblCell.swift */; };
+		599EEE8020171F92007EB844 /* Payment_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE7F20171F92007EB844 /* Payment_TblCell.swift */; };
+		599EEE8220171FB6007EB844 /* Cost_of_Ticket_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE8120171FB6007EB844 /* Cost_of_Ticket_TblCell.swift */; };
+		599EEE8420171FD1007EB844 /* Post_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE8320171FD1007EB844 /* Post_TblCell.swift */; };
+		599EEE86201721AD007EB844 /* Ticket_Class_TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599EEE85201721AD007EB844 /* Ticket_Class_TblCell.swift */; };
 		59A8957C2015A9B200416B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A8957B2015A9B200416B96 /* AppDelegate.swift */; };
-		59A8957E2015A9B200416B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A8957D2015A9B200416B96 /* ViewController.swift */; };
 		59A895812015A9B200416B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A8957F2015A9B200416B96 /* Main.storyboard */; };
 		59A895842015A9B200416B96 /* Buy_Sell_Ticket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59A895822015A9B200416B96 /* Buy_Sell_Ticket.xcdatamodeld */; };
 		59A895862015A9B200416B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A895852015A9B200416B96 /* Assets.xcassets */; };
 		59A895892015A9B200416B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A895872015A9B200416B96 /* LaunchScreen.storyboard */; };
 		59A895942015A9B200416B96 /* Buy_Sell_TicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A895932015A9B200416B96 /* Buy_Sell_TicketTests.swift */; };
+		59A8959F2015CAFF00416B96 /* My_PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A8959E2015CAFF00416B96 /* My_PostVC.swift */; };
+		59A895A42015CBA300416B96 /* My_Post_collectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A895A32015CBA300416B96 /* My_Post_collectionCell.swift */; };
+		59A895A72015CCB400416B96 /* My_Post_Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A895A62015CCB400416B96 /* My_Post_Variables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +51,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5936A91E2018623B0022CCFE /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		5936A921201879EC0022CCFE /* Buy_sell_TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_sell_TabBar.swift; sourceTree = "<group>"; };
+		599EEE6020170F36007EB844 /* Movie_Post_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_Post_VC.swift; sourceTree = "<group>"; };
+		599EEE632017153E007EB844 /* Select_Movie_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_Movie_Cell.swift; sourceTree = "<group>"; };
+		599EEE652017155D007EB844 /* Select_Date_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_Date_Cell.swift; sourceTree = "<group>"; };
+		599EEE6720171592007EB844 /* No_of_Ticket_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = No_of_Ticket_Cell.swift; sourceTree = "<group>"; };
+		599EEE69201715B5007EB844 /* Ticket_Class_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket_Class_Cell.swift; sourceTree = "<group>"; };
+		599EEE6B201715E5007EB844 /* Booked_Method_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booked_Method_Cell.swift; sourceTree = "<group>"; };
+		599EEE6D20171604007EB844 /* Payment_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment_Cell.swift; sourceTree = "<group>"; };
+		599EEE6F20171DA4007EB844 /* Select_Theater_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_Theater_Cell.swift; sourceTree = "<group>"; };
+		599EEE7320171E5B007EB844 /* Select_Movie_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_Movie_TblCell.swift; sourceTree = "<group>"; };
+		599EEE7520171E83007EB844 /* Select_Date_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_Date_TblCell.swift; sourceTree = "<group>"; };
+		599EEE7720171ED5007EB844 /* No_of_Ticket_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = No_of_Ticket_TblCell.swift; sourceTree = "<group>"; };
+		599EEE7920171F19007EB844 /* Ticket_Row_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket_Row_TblCell.swift; sourceTree = "<group>"; };
+		599EEE7B20171F46007EB844 /* Show_Time_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_Time_TblCell.swift; sourceTree = "<group>"; };
+		599EEE7D20171F6B007EB844 /* Booked_Method_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booked_Method_TblCell.swift; sourceTree = "<group>"; };
+		599EEE7F20171F92007EB844 /* Payment_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment_TblCell.swift; sourceTree = "<group>"; };
+		599EEE8120171FB6007EB844 /* Cost_of_Ticket_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cost_of_Ticket_TblCell.swift; sourceTree = "<group>"; };
+		599EEE8320171FD1007EB844 /* Post_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post_TblCell.swift; sourceTree = "<group>"; };
+		599EEE85201721AD007EB844 /* Ticket_Class_TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket_Class_TblCell.swift; sourceTree = "<group>"; };
 		59A895782015A9B200416B96 /* Buy_Sell_Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buy_Sell_Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A8957B2015A9B200416B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59A8957D2015A9B200416B96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59A895802015A9B200416B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59A895832015A9B200416B96 /* Buy_Sell_Ticket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Buy_Sell_Ticket.xcdatamodel; sourceTree = "<group>"; };
 		59A895852015A9B200416B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +81,9 @@
 		59A8958F2015A9B200416B96 /* Buy_Sell_TicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Buy_Sell_TicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A895932015A9B200416B96 /* Buy_Sell_TicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy_Sell_TicketTests.swift; sourceTree = "<group>"; };
 		59A895952015A9B200416B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A8959E2015CAFF00416B96 /* My_PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_PostVC.swift; sourceTree = "<group>"; };
+		59A895A32015CBA300416B96 /* My_Post_collectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Post_collectionCell.swift; sourceTree = "<group>"; };
+		59A895A62015CCB400416B96 /* My_Post_Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Post_Variables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +104,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		599EEE6220170F5A007EB844 /* TableView_Cells */ = {
+			isa = PBXGroup;
+			children = (
+				599EEE6F20171DA4007EB844 /* Select_Theater_Cell.swift */,
+				599EEE7320171E5B007EB844 /* Select_Movie_TblCell.swift */,
+				599EEE7520171E83007EB844 /* Select_Date_TblCell.swift */,
+				599EEE7720171ED5007EB844 /* No_of_Ticket_TblCell.swift */,
+				599EEE85201721AD007EB844 /* Ticket_Class_TblCell.swift */,
+				599EEE7920171F19007EB844 /* Ticket_Row_TblCell.swift */,
+				599EEE7B20171F46007EB844 /* Show_Time_TblCell.swift */,
+				599EEE7D20171F6B007EB844 /* Booked_Method_TblCell.swift */,
+				599EEE7F20171F92007EB844 /* Payment_TblCell.swift */,
+				599EEE8120171FB6007EB844 /* Cost_of_Ticket_TblCell.swift */,
+				599EEE8320171FD1007EB844 /* Post_TblCell.swift */,
+			);
+			path = TableView_Cells;
+			sourceTree = "<group>";
+		};
 		59A8956F2015A9B100416B96 = {
 			isa = PBXGroup;
 			children = (
+				5936A921201879EC0022CCFE /* Buy_sell_TabBar.swift */,
 				59A8957A2015A9B200416B96 /* Buy_Sell_Ticket */,
 				59A895922015A9B200416B96 /* Buy_Sell_TicketTests */,
 				59A895792015A9B200416B96 /* Products */,
@@ -79,13 +144,16 @@
 		59A8957A2015A9B200416B96 /* Buy_Sell_Ticket */ = {
 			isa = PBXGroup;
 			children = (
+				59A895A52015CC8800416B96 /* NSObjects */,
 				59A8957B2015A9B200416B96 /* AppDelegate.swift */,
-				59A8957D2015A9B200416B96 /* ViewController.swift */,
 				59A8957F2015A9B200416B96 /* Main.storyboard */,
 				59A895852015A9B200416B96 /* Assets.xcassets */,
 				59A895872015A9B200416B96 /* LaunchScreen.storyboard */,
 				59A8958A2015A9B200416B96 /* Info.plist */,
-				59A895822015A9B200416B96 /* Buy_Sell_Ticket.xcdatamodeld */,
+				59A895A02015CB0700416B96 /* ViewControllers */,
+				599EEE6220170F5A007EB844 /* TableView_Cells */,
+				59A895A22015CB4500416B96 /* CollectionViewCells */,
+				59A895A12015CB1D00416B96 /* CoreData */,
 			);
 			path = Buy_Sell_Ticket;
 			sourceTree = "<group>";
@@ -97,6 +165,46 @@
 				59A895952015A9B200416B96 /* Info.plist */,
 			);
 			path = Buy_Sell_TicketTests;
+			sourceTree = "<group>";
+		};
+		59A895A02015CB0700416B96 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				59A8959E2015CAFF00416B96 /* My_PostVC.swift */,
+				599EEE6020170F36007EB844 /* Movie_Post_VC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		59A895A12015CB1D00416B96 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				59A895822015A9B200416B96 /* Buy_Sell_Ticket.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		59A895A22015CB4500416B96 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				599EEE632017153E007EB844 /* Select_Movie_Cell.swift */,
+				599EEE652017155D007EB844 /* Select_Date_Cell.swift */,
+				599EEE6720171592007EB844 /* No_of_Ticket_Cell.swift */,
+				599EEE69201715B5007EB844 /* Ticket_Class_Cell.swift */,
+				599EEE6B201715E5007EB844 /* Booked_Method_Cell.swift */,
+				599EEE6D20171604007EB844 /* Payment_Cell.swift */,
+				59A895A32015CBA300416B96 /* My_Post_collectionCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		59A895A52015CC8800416B96 /* NSObjects */ = {
+			isa = PBXGroup;
+			children = (
+				5936A91E2018623B0022CCFE /* extensions.swift */,
+				59A895A62015CCB400416B96 /* My_Post_Variables.swift */,
+			);
+			path = NSObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +310,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59A8957E2015A9B200416B96 /* ViewController.swift in Sources */,
+				5936A922201879EC0022CCFE /* Buy_sell_TabBar.swift in Sources */,
+				599EEE8420171FD1007EB844 /* Post_TblCell.swift in Sources */,
 				59A8957C2015A9B200416B96 /* AppDelegate.swift in Sources */,
+				599EEE8220171FB6007EB844 /* Cost_of_Ticket_TblCell.swift in Sources */,
+				59A895A72015CCB400416B96 /* My_Post_Variables.swift in Sources */,
+				599EEE7020171DA4007EB844 /* Select_Theater_Cell.swift in Sources */,
+				599EEE642017153E007EB844 /* Select_Movie_Cell.swift in Sources */,
+				599EEE86201721AD007EB844 /* Ticket_Class_TblCell.swift in Sources */,
+				59A895A42015CBA300416B96 /* My_Post_collectionCell.swift in Sources */,
+				599EEE6A201715B5007EB844 /* Ticket_Class_Cell.swift in Sources */,
+				599EEE7A20171F19007EB844 /* Ticket_Row_TblCell.swift in Sources */,
+				599EEE8020171F92007EB844 /* Payment_TblCell.swift in Sources */,
+				5936A91F2018623B0022CCFE /* extensions.swift in Sources */,
+				599EEE6820171592007EB844 /* No_of_Ticket_Cell.swift in Sources */,
+				599EEE6E20171604007EB844 /* Payment_Cell.swift in Sources */,
 				59A895842015A9B200416B96 /* Buy_Sell_Ticket.xcdatamodeld in Sources */,
+				599EEE6C201715E5007EB844 /* Booked_Method_Cell.swift in Sources */,
+				599EEE7820171ED5007EB844 /* No_of_Ticket_TblCell.swift in Sources */,
+				599EEE662017155D007EB844 /* Select_Date_Cell.swift in Sources */,
+				599EEE7620171E83007EB844 /* Select_Date_TblCell.swift in Sources */,
+				599EEE7420171E5B007EB844 /* Select_Movie_TblCell.swift in Sources */,
+				59A8959F2015CAFF00416B96 /* My_PostVC.swift in Sources */,
+				599EEE7E20171F6B007EB844 /* Booked_Method_TblCell.swift in Sources */,
+				599EEE7C20171F46007EB844 /* Show_Time_TblCell.swift in Sources */,
+				599EEE6120170F36007EB844 /* Movie_Post_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +343,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59A895942015A9B200416B96 /* Buy_Sell_TicketTests.swift in Sources */,
+				5936A923201879EC0022CCFE /* Buy_sell_TabBar.swift in Sources */,
+				5936A9202018623B0022CCFE /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
