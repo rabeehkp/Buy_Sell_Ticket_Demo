@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="Buttons_Collctn_Xib_Cells" reuseIdentifier="Buttons_Collctn_Xib_Cells" id="gTV-IL-0wX" customClass="Buttons_Collctn_Xib_Cells" customModule="Buy_Sell_Ticket">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Npu-A4-ziY">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="80"/>
+                        <color key="backgroundColor" red="0.14901960780000001" green="0.1764705882" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.14901960780000001" green="0.1764705882" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Npu-A4-ziY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GXB-T5-ZYT"/>
+                <constraint firstItem="Npu-A4-ziY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Vyu-vh-cyw"/>
+                <constraint firstAttribute="trailing" secondItem="Npu-A4-ziY" secondAttribute="trailing" id="YWq-5e-tF3"/>
+                <constraint firstAttribute="bottom" secondItem="Npu-A4-ziY" secondAttribute="bottom" id="ahW-Ga-BHu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="113" height="61"/>
+            <connections>
+                <outlet property="reUsable_Buttons" destination="Npu-A4-ziY" id="5rs-rJ-M4k"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="108"/>
+        </collectionViewCell>
+    </objects>
+</document>

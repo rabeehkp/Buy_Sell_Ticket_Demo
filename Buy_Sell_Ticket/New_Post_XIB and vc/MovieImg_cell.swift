@@ -1,57 +1,59 @@
 //
-//  My_PostVC.swift
+//  MovieImg_cell.swift
 //  Buy_Sell_Ticket
 //
-//  Created by Rabeeh KP on 22/01/18.
+//  Created by Rabeeh KP on 29/01/18.
 //  Copyright © 2018 Rabeeh KP. All rights reserved.
 //
 
 import UIKit
 
-class My_PostVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class MovieImg_cell: UITableViewCell, UICollectionViewDataSource, UICollectionViewDelegate {
+    //MARK: - Variables
+    var variables = My_Post_Variables()
     
-    //MARK: -Variables
-    var movies = My_Post_Variables()
+    //MARK: - Outlets
+    @IBOutlet weak var showMovie_CollectionView: UICollectionView!
     
-    //MARK: -Outlets
-    @IBOutlet weak var addNew_View: UIView!
-    @IBOutlet weak var collectionView: UICollectionView!
-    
-    //MARK: -View Methods
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        addNew_View.layer.cornerRadius = 38
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        showMovie_CollectionView.delegate = self
+        showMovie_CollectionView.dataSource = self
+        showMovie_CollectionView.register(UINib(nibName: "Movie_Img_Collctn_Cell", bundle: nil), forCellWithReuseIdentifier: "Movie_Img_Collctn_Cell")
     }
 
-    //MARK: -CollectionView DataSource
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+    //MARK: - CollectionView datasource
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return movies.movies.count
+        return variables.movies.count
     }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let myMovie_Cell = collectionView.dequeueReusableCell(withReuseIdentifier: "my_Post_Cell", for: indexPath) as! My_Post_collectionCell
-        myMovie_Cell.Movie_ImageView.image = UIImage(named: movies.movies[indexPath.row])
-        myMovie_Cell.movie_Name.text = movies.movies[indexPath.row]
-        return myMovie_Cell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Movie_Img_Collctn_Cell", for: indexPath) as! Movie_Img_Collctn_Cell
+        cell.movieImgView.image = UIImage(named: variables.movies[indexPath.row])
+        cell.movieNameLbl.text = variables.movies[indexPath.row]
+        cell.movieImgView.layer.frame.size.height = 160
+        return cell
     }
 }
-
-//MARK: -Custom layout
-extension My_PostVC: UICollectionViewDelegateFlowLayout{
+extension MovieImg_cell: UICollectionViewDelegateFlowLayout{
     fileprivate var sectionInsets: UIEdgeInsets {
         return UIEdgeInsets.init(top: 8, left: 8, bottom: 8, right: 8)
     }
 
     fileprivate var itemsPerRow: CGFloat {
-        return 2
+        return 2.6
     }
 
     fileprivate var interitemSpace: CGFloat {
-        return 0.0
+        return 6.0
     }
 
     func collectionView(_ collectionView: UICollectionView,
@@ -62,7 +64,7 @@ extension My_PostVC: UICollectionViewDelegateFlowLayout{
         let availableWidth = collectionView.bounds.width - sectionPadding - interitemPadding
         let widthPerItem = availableWidth / itemsPerRow
         let availableHeight = collectionView.bounds.height
-        let heightPerItem = availableHeight / itemsPerRow
+        let heightPerItem = availableHeight // itemsPerRow
         return CGSize(width: widthPerItem, height: heightPerItem)
     }
 
@@ -75,12 +77,11 @@ extension My_PostVC: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 8.0
+        return 2.0
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return interitemSpace
     }
 }
-
 

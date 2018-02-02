@@ -26,5 +26,5 @@ class My_Post_Variables: NSObject {
     //MARK: -Payment
     var payment = ["Cash","Paytm","Mobile Recharge"]
     //MARK: -Common variable
-    var date_Button_Clicked : Bool = false
+    var search_Button_Clicked : Bool!
 }

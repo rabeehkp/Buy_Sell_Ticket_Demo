@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="PostTicket_TblCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostTicket_TblCell" id="KGk-i7-Jjw" customClass="PostTicket_TblCell" customModule="Buy_Sell_Ticket">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9j-zD-tgx">
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="49.5"/>
+                        <color key="backgroundColor" red="0.95294117649999999" green="0.80392156859999997" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" title="POST">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="P9j-zD-tgx" secondAttribute="trailing" id="5IO-fh-BVU"/>
+                    <constraint firstItem="P9j-zD-tgx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="IKL-xD-OGJ"/>
+                    <constraint firstAttribute="bottom" secondItem="P9j-zD-tgx" secondAttribute="bottom" id="gBw-3e-2iC"/>
+                    <constraint firstItem="P9j-zD-tgx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gGb-P0-HGp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.14901960780000001" green="0.1764705882" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="post_Ticket_Btn" destination="P9j-zD-tgx" id="kf6-nx-3bA"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
